@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    /* margin:0; */
+}
+
+.boxes{
+    margin:40px auto;
+    width:max-content;
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 20px;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    background-color:gray;
+    border: 4px solid white;
+    cursor: pointer;
+}
